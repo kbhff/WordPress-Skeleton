@@ -1,0 +1,130 @@
+
+
+#footernews {
+	text-align: left;
+	width: 210px;
+	float: right;
+	margin-top: -297px;
+	margin-right: 27px;
+	z-index: 100;
+	position: relative;
+	}
+	
+#footernews ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border-left: 1px solid #fff;
+	padding: 2px 0px 10px 25px;
+
+	}
+
+#footernews ul #headline {
+	margin-bottom: 8px;
+	font-weight: bold;
+	}
+	
+#footernews li {
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 0.9em;
+	}
+
+#footernews li:last-child {
+	margin-bottom: 0px;
+	}
+	
+
+#footernews li a {
+	color: #fff;
+	}
+	
+#footernews li a:hover {
+	color: #fff;
+	text-decoration: underline;
+	}
+
+#footernews li .left {
+	width: 50px;
+	vertical-align: top;
+	}	
+
+#footernews small {
+	text-transform: lowercase;
+	}
+	
+.home-date {
+	text-transform: lowercase;
+	}
+
+.medlemstable, .medlemstable tr, .medlemstable td {
+	border: none;
+	vertical-align: top;
+	text-align: left;
+	}
+	
+.medlemstable td:nth-child(odd) {
+	padding:0;
+	width: 230px;
+	}
+
+.medlemstable td:nth-child(even) {
+	padding-left:20px;
+	}
+		
+
+.medlemsknap {
+	background: #3e8e17;
+	color: #fff;
+	font-family: 'DIN', helvetica, arial;
+	font-size: 12pt;
+	text-transform: UPPERCASE;
+	width: 200px;
+	height: 25px;
+	padding: 25px;
+	}
+	
+#footer_kontakt {
+	text-align: center;
+	font-family: Helvetica, Arial;
+	font-size: 8pt;
+	text-transform: none;
+	font-weight: normal;
+	}
+	
+#footer_kontakt a {
+	color: #fff;
+	}
+	
+#footer_kontakt a:hover {
+	text-decoration: underline;
+	}
+	
+/*single-ugens-pose*/
+
+.lossalg {
+	margin: 25px 0 25px 0;
+	}
+	
+/*Widgets*/
+
+/*Arkiv*/
+#sencondary.widget-area {
+	
+		
+	}
+.widget.widget_categories, .widget.widget_archive, .widget.widget_tag_cloud  {
+	background:#ebebeb;	
+	padding: 10px 20px 20px 20px;
+	
+	}
+.widget ul {
+	list-style:none;
+	}
+
+/*Buddypress*/
+
+#main.main-buddypress{
+	width: 1000px;
+	margin: 0 auto;
+	}

@@ -1,0 +1,424 @@
+
+/*
+Theme Name:     Kbhff theme
+Description:    Child theme of twenty eleven 
+Author:         Sofie Hauge Katan
+Template:       TwentyEleven
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+/* =Reset default browser CSS. Based on work by Eric Meyer: http://meyerweb.com/eric/tools/css/reset/index.html
+-------------------------------------------------------------- */
+
+@font-face {
+    font-family: 'DIN';
+    src: url('font/voresfont.eot');
+    src: url('font/voresfont.eot?#iefix') format('embedded-opentype'),
+         url('font/voresfont.woff') format('woff'),
+         url('font/voresfont.ttf') format('truetype'),
+         url('font/voresfont.svg#voresfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+html, body {
+	margin: 0;
+	padding:0;
+    background: #fff;
+    }
+
+.wiki, body{
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif!important;
+	font-size: 14px !important;
+	line-height: 1.625em!important;
+    color: #000;
+	font-weight: 300!important;
+	}
+
+img { 
+	border: 0; 
+	}
+
+
+
+/* ****************************************************** */
+/* GENEREL STYLE */
+
+#wrapper { 
+	float: left;  
+	position: relative; 
+	min-width: 925px; 
+	}
+	
+#wrapper, .header, #wikiBody { 
+	width: 100%; 
+	padding: 10px 0 20px 0;
+	
+	}
+
+.footer a, .sidebar a { 
+	text-decoration: none; 
+	}
+
+.footer a:hover, .sidebar a:hover { 
+	text-decoration: underline; 
+	}
+
+
+/* ****************************************************** */
+/* WIKIBODY*/
+
+#wikiBody { 
+		clear: both; 
+		padding-top: 5px; 
+		}
+
+#wikiBox { 
+		margin: 0 15px 5px 228px; 
+		min-width: 682px; 
+		width: auto; 
+		}
+
+#wikiBoxTable { 
+		table-layout: fixed; 
+		width: 100%; 
+		height: auto;
+		border: 1px solid #000;
+		margin: 0 0 50px 0;
+	}
+
+#leftGradient, #rightGradient, #topLeftGradient, #topRightGradient, #bottomLeftGradient, #bottomRightGradient {
+		width: 5px;
+		}
+
+#topGradient, #topLeftGradient, topRightGradient {
+		height: 3px;
+		}
+
+#bottomGradient, #bottomLeftGradient, #bottomRightGradient {
+		height: 5px;
+		}
+
+#centerCell { 
+	background-color: #FFF; 
+	padding: 5px !important; 
+	}
+	
+#content_view.wiki { 
+	overflow-x: auto; 
+	overflow-y: visible; 
+	}
+
+
+/* ****************************************************** */
+/* HEADER*/
+
+.header h1 a, .header h1 a:hover, .header h1 a:visited {
+	font-size: 33px;
+	line-height: 40px;
+	font-family: 'DIN', helvetica, arial;
+	font-weight: 300;
+	text-transform:uppercase;
+	text-decoration:none;
+	color: #000;
+	}
+
+.header h1 a span {
+	color: #3E8E17;
+	}
+		
+.MenuBar .PageTitle, .MenuBar .PageTitle a, .MenuBar .PageTitle a:hover, .MenuBar .PageTitle a:visited {
+		font-size: 25px;
+		font-family: 'DIN', helvetica, arial;
+		font-weight: 900;
+		text-transform:uppercase;
+		text-decoration: none!important;
+		color: #000;
+		}
+
+h2 {
+	font-size: 20px!important;
+	font-family: helvetica, arial!important;
+	font-weight: 900;
+	}
+
+	
+h3 {
+	font-size: 14px!important;
+	font-family: helvetica, arial!important;
+	font-weight: normal;
+
+	}
+
+h4 {
+	font-size: 16px!important;
+	font-weight:600!important;
+	}
+	
+h5 {
+	font-size: 14px!important;
+	font-family: 'DIN', helvetica, arial!important;	
+	}
+
+a, a:visited {
+	color: #3e8e17;
+	text-decoration: none;
+	font-weight: normal;
+	}
+a:hover {
+	color: #000;
+	text-decoration: underline;
+	}
+	
+.headerInner {
+	padding: 0 0 0 235px;
+}
+
+.logo {
+	position:absolute;
+	left: 15px;
+	margin: -65px 0 0 10px;
+	right: 0;
+	width: 175px;
+	height: 175px;
+	background: transparent url("logo_black.png") top left no-repeat;
+}		
+	
+
+
+/* ****************************************************** */
+/* FORSIDEKNAP*/
+
+.forside_knap {
+	background: #000;
+	color: #fff;
+	font-family: 'DIN', Helvetica, Arial;
+	font-size: 11pt;
+	text-transform: UPPERCASE;
+	text-decoration: none;
+	display: block;
+	margin: -20px 15px 0 0;
+	float:right;	
+}
+
+.forside_knap a {
+	color: #fff;
+	text-decoration:none;
+	display:block;
+	padding: 8px 12px; 0 0;
+}
+
+.forside_knap a:hover{
+	color: #fff;
+	text-decoration:none;
+	background: #3E8E17;
+}
+
+
+/* ****************************************************** */
+/* SIDEBAR*/	
+
+.sidebar { 
+	position: absolute; 
+	left: 0; 
+	background: #E7E8eA;
+	margin: 0px 0 0 10px;
+	padding: 10px 5px 5px 5px;
+	width: 200px; 
+	line-height: 16px;
+	font-size: 12px;
+}
+
+.sidebar a { 
+	color: #000; 
+	text-decoration: none;
+	}
+
+
+.sidebar .actions a { 
+	color: #6d6d6d; 
+	text-decoration: none;
+	}
+
+.sidebar .wiki span a { 
+	color: inherit; }
+
+.sidebar a:hover { 
+	color: #6d6d6d; 
+	text-decoration: underline;
+	}
+
+
+
+.WikiCustomNav { 
+	padding: 0; 	
+	line-height: 18px; 
+	width: 100%; 
+	font-size: 14px! important; 
+	text-transform: uppercase;
+}
+
+
+.WikiCustomNav a:link {
+	font-family: 'Helvetica', Arial, sans-serif; 
+	font-size: 13px;
+	font-style: normal;
+
+	}
+
+.WikiCustomNav a:visited {
+	font-family: 'Helvetica', Arial, sans-serif; 
+	font-style: normal;
+	text-decoration: none;
+	color: #000! important;
+	}
+
+.WikiCustomNav a:hover {
+	font-family: 'Helvetica', Arial, sans-serif; 
+	font-style: normal;
+	color: #3e8e17! important;
+	}
+
+
+.WikiCustomNav ol { 
+	padding-left: 1.5em !important; 	}
+
+.WikiCustomNav ul { 
+	margin: 0; 
+	padding: 0 0 0 2em !important; 
+	
+	}
+	
+.WikiCustomNav li { 
+	padding: 0;
+	font-size: 13px;
+	font-style: normal;
+	text-transform: none;
+	line-height: 18px; 
+	width: 100%; 
+	color: #000;
+	list-style-type: square;
+	}
+
+.WikiCustomNav ol.includePageList { 
+	padding-left: 0 !important; 
+	}
+
+.wiki_link_new {
+	color: #000!important;
+	}
+
+.wiki_link_new a:visited {
+	color: #000!important;
+	}
+
+.wiki_link_new a:hover {
+	color: #3e8e17!important;
+	text-decoration: underline;
+	}
+
+
+.sidebar_wiki_link_ext a:link {
+	color: #000!important;
+	}
+
+.sidebar_wiki_link_ext a:visited {
+	color: #000!important;
+
+	}
+
+.sidebar_wiki_link_ext a:hover {
+	color: #3e8e17 !important;
+
+	}
+
+
+
+.wiki_link_ext a {
+	color: #3e8e17!important;
+	}
+
+.wiki_link_ext a:visited {
+	color: #3e8e17!important;
+	}
+
+.wiki_link_ext a:hover {
+	color: #000!important;
+	text-decoration: underline;
+	}
+
+
+
+.WikiSearch {
+	display: block;
+	margin: -20px 15px 0 0;
+	float:right;
+	}
+	
+.WikiSearchInput {
+	height: 28px !important;
+	width: 85% !important;
+}
+
+.WikiSearch input[type="text"] {
+	background-position: 4px 8px !important;
+}
+
+
+/*
+.WikispacesNavbarList .WikispacesNavbarList { 
+	position: absolute; 
+	left: 0; 
+	margin: 0 0 0 10px;
+	padding: 5px;
+	width: 200px; 
+	background-color: #E7E8eA;
+}
+*/
+
+
+
+/* ****************************************************** */
+/* LINKS & COLOR*/	
+
+.WikiLogoName a {
+	color: #FFF; }
+
+.WikiFooterNav, .WikiFooterNav a, .WikiLicense, .WikiLicense a { 
+	color: #000; }
+
+#wikiBox { 
+	color: #000; }
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==== FOOTER ==== */
+.footer { padding: 10px 0 15px; text-align: center; }
+.WikiFooterNav { padding-bottom: 5px; }
+.WikiFooterNav a { font-size: 1em; padding: 0 8px; }
+.WikiLicense img { vertical-align: text-bottom; }
+
+
+/* ==== SIDEBAR ==== */
+.actions { padding-bottom: 15px; }
+.WikiActions { list-style-type: none; margin: 0; padding: 0; }
+
+
+
+.WikiActions li { padding-bottom: 6px; white-space: nowrap; }
+.WikiActions a { font-size: 1em; font-family: 'Lucida Grande',Arial,Helvetica,sans-serif; }
+.WikiActions img { padding-right: 0.5em; }
+
+.editNav { padding: 5px 0 15px; text-align: center; }
+.editNav a { color: #666; }
+
